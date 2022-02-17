@@ -1,0 +1,61 @@
+:root {
+  --main-bg-color: yellow;
+}
+
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+h1{
+  font-size: 5rem;
+}
+
+p, li {
+  line-height:1.5;
+  font-size:1.6rem
+}
+
+strong, em{
+  color: #a60000;
+}
+
+abbr{
+  color:#a60000;
+}
+
+
+a{
+  color:#ff0000;
+}
+
+a:hover, a:visited, a:focus {
+  color:#a60000;
+  text-decoration: none
+}
+
+a:active{
+  color:#000000;
+  background-color: #a60000;
+}
+
+form{
+  background: lightgray;
+  border-radius: 20px;
+  padding:20px;
+  width: 300px;
+}
+input{
+  width: 130;
+  float: right
+}
+label, input {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+header{
+  background-color: var(--main-bg-color);
+  height: 5em ;
+}
